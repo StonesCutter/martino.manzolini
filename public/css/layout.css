@@ -1019,6 +1019,15 @@ footer .social-links li:first-child { margin-left: 0; }
    padding-left: 30px;
    padding-right: 30px; 
 }
+
+.btnMobile:first-child{
+   margin-right: 10px;
+}
+.btnMobile{
+   padding-left: 10px;
+   padding-right: 10px; 
+}
+
 .social .btn i{
    margin-right: 15px;
 }
