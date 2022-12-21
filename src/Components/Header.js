@@ -3,13 +3,44 @@ import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
 
 class Header extends Component {
+
+  constructor() {
+    super();
+    this.state = {
+      width: window.innerWidth,
+    };
+  }
+  
+  componentWillMount() {
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+  
+  // make sure to remove the listener
+  // when the component is not mounted anymore
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleWindowSizeChange);
+  }
+  
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
+
   render() {
     if (!this.props.data) return null;
+
+    const { width } = this.state;
+    const isMobile = width <= 500;
 
     const project = this.props.data.project;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
+
+    if (isMobile) {
+      return (
+        <div></div>
+      );
+    } else {
 
     return (
       <header id="home">
@@ -85,6 +116,7 @@ class Header extends Component {
         </p>
       </header>
     );
+    }
   }
 }
 
