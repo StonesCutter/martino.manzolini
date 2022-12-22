@@ -95,6 +95,53 @@ class Resume extends Component {
             <div className="nine columns main-col">
               <p>{skillmessage}</p>
 
+              {/*<table>
+                <tbody>
+                  <tr className="table-skills">
+                    <th scope="row">Programming languages</th>
+                    <td width='50%'>quaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
+                  </tr>
+                   <tr>
+                    <th scope="row">Frameworks and Services</th>
+                    <td>qua</td>
+                  </tr>
+                   <tr>
+                    <th scope="row">Software</th>
+                    <td>qua</td>
+                  </tr>
+                </tbody>
+              </table>*/}
+
+              {/* -------------------- */}
+          <div className="row">
+
+          <Slide left duration={1000}>
+            <div className="eight columns">
+                <fieldset>
+                <table>
+                  <tr>
+                    <th>
+                      <h5> Programming languages: </h5>
+                    </th>
+                    <th>ooooo</th>
+                  </tr>
+                  <tr>
+                    <th>
+                       <h5> Programming languages: </h5>
+                    </th>
+                   <th>ooooo</th>
+                  </tr>
+                </table>
+              </fieldset>
+
+            </div>
+          </Slide>
+
+        </div>
+
+              {/* ------------------- */}
+
+
               <div className="bars">
                 <ul className="skills">{skills}</ul>
               </div>
