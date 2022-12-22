@@ -345,6 +345,10 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 22px;
    border-radius: 0px;
 }
+
+.percentage-languages {
+   text-align: right;
+}
 /*
 .git {
   	-moz-animation: git 2s ease;
