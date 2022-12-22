@@ -19,13 +19,6 @@ class About extends Component {
 
     return (
       <section id="about">
- 
- <img
-                
-                src={profilepic}
-                alt="Profile Pic"
-              />
-
         <Fade duration={1000}>
           <div className="row">
             <div className="three columns">
