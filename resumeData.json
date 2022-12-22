@@ -69,16 +69,16 @@
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Beije - People First",
+        "title":"React developer",
+        "years":"February 2023 - Present",
+        "description":"Software developer using React and React Native framworks."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Honorary Italian Consulate in Varna, Bulgaria",
+        "title":"Freelance Front-end Engineer",
+        "years":"February 2022 - September 2022",
+        "description":"Design and implementation of an Augmented Reality application using Unity3D"
       }
     ],
     "skills":[
