@@ -21,7 +21,7 @@ class About extends Component {
       <section id="about">
  
  <img
-                className="profile-pic"
+                
                 src={profilepic}
                 alt="Profile Pic"
               />
