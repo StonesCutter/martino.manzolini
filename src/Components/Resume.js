@@ -15,6 +15,8 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
+    const frameworks = this.props.data.frameworks;
+    const software = this.props.data.software;
     const programmingLanguages = this.props.data.programmingLanguages;
     const education = this.props.data.education.map(function (education) {
       return (
@@ -89,34 +91,14 @@ class Resume extends Component {
           <div className="row skill">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>IT Skills</span>
               </h1>
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
-
-              {/*<table>
-                <tbody>
-                  <tr className="table-skills">
-                    <th scope="row">Programming languages</th>
-                    <td width='50%'>quaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</td>
-                  </tr>
-                   <tr>
-                    <th scope="row">Frameworks and Services</th>
-                    <td>qua</td>
-                  </tr>
-                   <tr>
-                    <th scope="row">Software</th>
-                    <td>qua</td>
-                  </tr>
-                </tbody>
-              </table>*/}
-
-              {/* -------------------- */}
           <div className="row">
 
-          <Slide left duration={1000}>
+         
             <div className="twelve columns">
                 <fieldset>
                 <table className="table-skills">
@@ -128,20 +110,35 @@ class Resume extends Component {
                   </tr>
                   <tr  className="row-skills">
                     <th>
-                       <h5> Programming languages: </h5>
+                       <h5> Frameworks and Services: </h5>
                     </th>
-                    <th className="column-skills">ooooo</th>
+                    <th className="column-skills">{frameworks}</th>
+                  </tr>
+                  <tr  className="row-skills">
+                    <th>
+                       <h5> Software: </h5>
+                    </th>
+                    <th className="column-skills">{software}</th>
                   </tr>
                 </table>
               </fieldset>
-
             </div>
-          </Slide>
+          </div>
+            </div>
+          </div>
+        </Slide>
 
-        </div>
 
-              {/* ------------------- */}
+        <Slide left duration={1300}>
+        
+          <div className="row languages">
+            <div className="three columns header-col">
+              <h1>
+                <span>Languages</span>
+              </h1>
+            </div>
 
+            <div className="nine columns main-col">
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
@@ -149,6 +146,7 @@ class Resume extends Component {
             </div>
           </div>
         </Slide>
+
       </section>
     );
   }
