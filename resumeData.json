@@ -54,6 +54,8 @@
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "programmingLanguages":"C++,   C#,   Java,   Javascript,   MySQL,   HTML & CSS ",
+    "frameworks":"ReactJS,   React Native,   Vuforia Engine,   Microsoft Azure ",
+    "software":"Unity,   3Ds Max,   Gimp,   Pinnacle Studio",
     "education":[
       {
         "school":"Polytechnic University of Milan",
@@ -84,32 +86,16 @@
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Italian",
+        "level":"100%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"English",
+        "level":"100%"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Bulgarian",
+        "level":"10%"
       }
     ]
   },
