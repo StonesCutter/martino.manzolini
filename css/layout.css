@@ -282,6 +282,18 @@ ul#nav li.current a { color: #fe6928; }
    margin-top: 6px;
 }
 
+.table-skills {
+   border-collapse: separate;
+}
+
+.column-skills{
+   padding-left: 30px;
+}
+
+.row-skills{
+   padding-bottom: 30px;
+}
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/

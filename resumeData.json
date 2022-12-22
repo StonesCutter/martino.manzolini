@@ -53,6 +53,7 @@
   },
   "resume":{
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "programmingLanguages":"C++,   C#,   Java,   Javascript,   MySQL,   HTML & CSS ",
     "education":[
       {
         "school":"Polytechnic University of Milan",
