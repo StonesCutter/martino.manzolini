@@ -2,7 +2,7 @@
   "main": {
     "name":"Hey! I'm Martino Manzolini",
     "description":"SOFTWARE ENGINEER - FRONTEND DEVELOPEMENT & DESIGN",
-    "image":"profilepic.jpg",
+    "image":"https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fphoto-1514790193030-c89d266d5a9d.jpg?alt=media&token=ebc4288c-c324-40e4-a956-37e3eea5ed20",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "martino.manzolini@gmail.com",
