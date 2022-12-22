@@ -15,6 +15,7 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
+    const programmingLanguages = this.props.data.programmingLanguages;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -116,20 +117,20 @@ class Resume extends Component {
           <div className="row">
 
           <Slide left duration={1000}>
-            <div className="eight columns">
+            <div className="twelve columns">
                 <fieldset>
-                <table>
-                  <tr>
+                <table className="table-skills">
+                  <tr className="row-skills">
                     <th>
                       <h5> Programming languages: </h5>
                     </th>
-                    <th>ooooo</th>
+                    <th className="column-skills">{programmingLanguages}</th>
                   </tr>
-                  <tr>
+                  <tr  className="row-skills">
                     <th>
                        <h5> Programming languages: </h5>
                     </th>
-                   <th>ooooo</th>
+                    <th className="column-skills">ooooo</th>
                   </tr>
                 </table>
               </fieldset>

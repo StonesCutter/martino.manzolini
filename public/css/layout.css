@@ -283,7 +283,15 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 .table-skills {
-   width:100%
+   border-collapse: separate;
+}
+
+.column-skills{
+   padding-left: 30px;
+}
+
+.row-skills{
+   padding-bottom: 30px;
 }
 
 /*----------------------------------------------*/
