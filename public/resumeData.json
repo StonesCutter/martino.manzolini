@@ -1,9 +1,10 @@
 {
   "main": {
     "name":"Hey! I'm Martino Manzolini",
-    "description":"SOFTWARE ENGINEER - FRONTEND DEVELOPEMENT & DESIGN",
+    "description":"SOFTWARE ENGINEER - FRONT-END DEVELOPMENT & DESIGN",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "bio":"I was born in Como in 1998. I always combined non-teaching interests, like digital art, 3D modelling and video rendering, with Computer Engineering studies.",
+    "bio2":"I focused my studies on Advanced User Interfaces, and more generally, on the Front-end development of applications, both for academic and extracurricular projects.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
     "email": "martino.manzolini@gmail.com",
     "phone": "+39 3495029164",
@@ -54,16 +55,16 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Polytechnic University of Milan",
+        "degree":"Computer Science and Engineering",
+        "graduated":"October 2022",
+        "description":"Master's degree program delivered in English, focused on Advanced User Interfaces."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Polytechnic University of Milan",
+        "degree":"Computer Science and Engineering",
+        "graduated":"February 2020",
+        "description":"Bachelor's degree program delivered in Italian."
       }
     ],
     "work":[
