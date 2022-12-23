@@ -113,7 +113,7 @@ class Header extends Component {
             <footer>
             <div className="row">
             <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
+              <ul className="social-links-header">{networks}</ul>
             </div>
               </div>
               </footer>
@@ -196,7 +196,7 @@ class Header extends Component {
             <footer>
             <div className="row">
             <div className="twelve columns">
-              <ul className="social-links">{networks}</ul>
+              <ul className="social-links-header">{networks}</ul>
             </div>
               </div>
               </footer>
