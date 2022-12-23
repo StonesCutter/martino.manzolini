@@ -5,7 +5,7 @@
     "image":"profilepic.jpg",
     "bio":"I was born in Como in 1998. I always combined non-teaching interests, like digital art, 3D modelling and video rendering, with Computer Engineering studies.",
     "bio2":"I focused my studies on Advanced User Interfaces, and more generally, on the Front-end development of applications, both for academic and extracurricular projects.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage":"If you are interested in my work and you'd like to discuss future collaborations, feel free to leave a message in the form below.",
     "email": "martino.manzolini@gmail.com",
     "phone": "+39 3495029164",
     "github":"https://github.com/StonesCutter",
@@ -19,16 +19,7 @@
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://www.facebook.com/",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
+     
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/martino-manzolini/",
@@ -43,11 +34,6 @@
         "name":"github",
         "url":"https://github.com/StonesCutter",
         "className":"fa fa-github"
-      },
-      {
-        "name":"artstation",
-        "url":"https://www.artstation.com/martworks",
-        "className":"fa fa-artstation"
       }
     ]
   },
