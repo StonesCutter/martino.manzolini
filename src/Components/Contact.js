@@ -12,6 +12,7 @@ class Contact extends Component {
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
+    const email = this.props.data.email;
 
     return (
       <section id="contact">
@@ -32,7 +33,7 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+              <form action="https://formspree.io/f/mknawqwl" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -87,7 +88,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit" type="submit">Submit</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -95,7 +96,7 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning"> Error, something went wrong.</div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
@@ -106,17 +107,15 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Email and Phone</h4>
                 <p className="address">
-                  {name}
-                  <br />
-                  {street} <br />
-                  {city}, {state} {zip}
+                  {email}
                   <br />
                   <span>{phone}</span>
                 </p>
               </div>
 
+              {/*
               <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
@@ -145,6 +144,7 @@ class Contact extends Component {
                   </li>
                 </ul>
               </div>
+              */}
             </aside>
           </Slide>
         </div>

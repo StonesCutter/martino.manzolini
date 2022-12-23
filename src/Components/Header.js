@@ -36,6 +36,16 @@ class Header extends Component {
     const name = this.props.data.name;
     const description = this.props.data.description;
 
+    const networks = this.props.data.social.map(function (network) {
+      return (
+        <li key={network.name}>
+          <a href={network.url}>
+            <i className={network.className}></i>
+          </a>
+        </li>
+      );
+    });
+
     if (isMobile) {
       return (
       
@@ -97,11 +107,17 @@ class Header extends Component {
                 <a href="#portfolio" className="button btnMobile project-btn">
                   <i className="fa fa-book"></i>Projects
                 </a>
-                <a href={github} className="button btnMobile github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
               </ul>
             </Fade>
+
+            <footer>
+            <div className="row">
+            <div className="twelve columns">
+              <ul className="social-links">{networks}</ul>
+            </div>
+              </div>
+              </footer>
+
           </div>
         </div>
 
@@ -170,15 +186,21 @@ class Header extends Component {
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
-              <ul className="social">
+              <ul>
                 <a href="#portfolio" className="button btn project-btn">
-                  <i className="fa fa-book"></i>Projects
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                  <i className="fa fa-book"></i>    Projects
                 </a>
               </ul>
             </Fade>
+
+            <footer>
+            <div className="row">
+            <div className="twelve columns">
+              <ul className="social-links">{networks}</ul>
+            </div>
+              </div>
+              </footer>
+
           </div>
         </div>
 
