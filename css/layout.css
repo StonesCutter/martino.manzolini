@@ -467,6 +467,11 @@ ul#nav li.current a { color: #fe6928; }
    padding-top: 90px;
    padding-bottom: 60px;
 }
+
+.row-works {
+   padding-left: 2%;
+}
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;

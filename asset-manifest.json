@@ -1,14 +1,15 @@
 {
-  "files": {
-    "main.css": "/martino.manzolini/static/css/main.31d6cfe0.css",
-    "main.js": "/martino.manzolini/static/js/main.28cb2a52.js",
-    "static/js/787.8dd2b5b2.chunk.js": "/martino.manzolini/static/js/787.8dd2b5b2.chunk.js",
-    "index.html": "/martino.manzolini/index.html",
-    "main.28cb2a52.js.map": "/martino.manzolini/static/js/main.28cb2a52.js.map",
-    "787.8dd2b5b2.chunk.js.map": "/martino.manzolini/static/js/787.8dd2b5b2.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.31d6cfe0.css",
-    "static/js/main.28cb2a52.js"
-  ]
+  "main.css": "/martino.manzolini/static/css/main.db9122f5.chunk.css",
+  "main.js": "/martino.manzolini/static/js/main.edc4e6f9.chunk.js",
+  "main.js.map": "/martino.manzolini/static/js/main.edc4e6f9.chunk.js.map",
+  "static/js/1.2aad000b.chunk.js": "/martino.manzolini/static/js/1.2aad000b.chunk.js",
+  "static/js/1.2aad000b.chunk.js.map": "/martino.manzolini/static/js/1.2aad000b.chunk.js.map",
+  "static/js/2.6caa863d.chunk.js": "/martino.manzolini/static/js/2.6caa863d.chunk.js",
+  "static/js/2.6caa863d.chunk.js.map": "/martino.manzolini/static/js/2.6caa863d.chunk.js.map",
+  "runtime~main.js": "/martino.manzolini/static/js/runtime~main.03bd83a6.js",
+  "runtime~main.js.map": "/martino.manzolini/static/js/runtime~main.03bd83a6.js.map",
+  "static/css/main.db9122f5.chunk.css.map": "/martino.manzolini/static/css/main.db9122f5.chunk.css.map",
+  "index.html": "/martino.manzolini/index.html",
+  "precache-manifest.2d7a5fec985ed507f32d68cf66ee8b0c.js": "/martino.manzolini/precache-manifest.2d7a5fec985ed507f32d68cf66ee8b0c.js",
+  "service-worker.js": "/martino.manzolini/service-worker.js"
 }
