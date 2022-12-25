@@ -176,6 +176,7 @@ class Header extends Component {
           </ul>
         </nav>
 
+
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
@@ -205,7 +206,7 @@ class Header extends Component {
         </div>
 
         <p className="scrolldown">
-          <a className="smoothscroll" href="#about">
+          <a className="smoothscroll" href="#about" >
             <i className="icon-down-circle"></i>
           </a>
         </p>

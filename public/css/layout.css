@@ -30,7 +30,7 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
+   height: 700px;
    min-height: 500px;
    width: 100%;
    
@@ -42,6 +42,7 @@ header .social-links-header {
    margin: 18px 0 30px 0;
    padding: 0;
    font-size: 50px;
+   padding-top: -20%;
    
 }
 
@@ -75,7 +76,7 @@ header .banner {
    text-align: center;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { width: 100%; padding-top: 10%;}
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
@@ -561,6 +562,16 @@ ul#nav li.current a { color: #fe6928; }
    opacity: 1;
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
+}
+
+.card {
+   background: white;
+   padding: 3rem 5rem;  
+   margin-bottom: 20px;
+}
+.card p {
+   padding-top: 1rem;
+   line-height: 150%;
 }
 
 /* popup modal */
