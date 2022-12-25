@@ -50,10 +50,12 @@ class Portfolio extends Component {
               onClick={this.SetIsOpen}>
               
                 <motion.h2 layout="position">Prova</motion.h2>
+                <img src={"../../public/images/5AAR.png"} />
+                <Zmage src={"../../public/images/5AAR.png"} />
                 {this.state.isOpen &&(
-                  <div>
-                    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                    <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
+                  <div style={{ maxWidth: '100%', overflow: 'hidden', wordBreak: 'break-all' }} >
+                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                   bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
                   </div>
                    )}
               </motion.div>
@@ -104,7 +106,7 @@ class Portfolio extends Component {
                 {projects}
               </div>
               */}
-
+              
             </div>
           </div>
         </Fade>

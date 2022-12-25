@@ -574,6 +574,12 @@ ul#nav li.current a { color: #fe6928; }
    line-height: 150%;
 }
 
+.size-text-card {
+   max-width: '100%'; 
+   overflow: 'hidden';
+   word-break: 'break-all' 
+}
+
 /* popup modal */
 .popup-modal {
 	max-width: 550px;
