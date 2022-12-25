@@ -51,10 +51,10 @@ class Portfolio extends Component {
               
                 <motion.h2 layout="position">Prova</motion.h2>
                 {this.state.isOpen &&(
-                  <motion.div>
+                  <div>
                     <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
                     <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
-                  </motion.div>
+                  </div>
                    )}
               </motion.div>
 
@@ -104,7 +104,7 @@ class Portfolio extends Component {
                 {projects}
               </div>
               */}
-              
+
             </div>
           </div>
         </Fade>
