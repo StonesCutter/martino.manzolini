@@ -50,8 +50,7 @@ class Portfolio extends Component {
               onClick={this.SetIsOpen}>
               
                 <motion.h2 layout="position">Prova</motion.h2>
-                <img src={"../../public/images/5AAR.png"} />
-                <Zmage src={"../../public/images/5AAR.png"} />
+                <img src={"images/5AAR.png"} />
                 {this.state.isOpen &&(
                   <div style={{ maxWidth: '100%', overflow: 'hidden', wordBreak: 'break-all' }} >
                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
