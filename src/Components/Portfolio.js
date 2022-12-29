@@ -188,7 +188,7 @@ const images2 = [
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-               <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen}>5AAR - Augmented Reality and Conversational Agent</motion.h2></a>
+               <a id="Leo" href="#portfolio" className="smoothscroll"><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen}>5AAR - Augmented Reality and Conversational Agent</motion.h2></a>
                 <motion.img layout src={"images/5AAR.png"} />
 
                 {this.state.isOpen &&(
@@ -233,9 +233,10 @@ const images2 = [
               </motion.div>
 
               <motion.div  layout className="card" 
+              
               style={{borderRadius: "1rem"}}>
               
-              <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
+              <a id="App" href="#Leo" className="smoothscroll"><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
                 <motion.img layout src={"images/LeonARdo.jpg"} />
 
                 {this.state.isOpen1 &&(
@@ -290,7 +291,7 @@ const images2 = [
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-              <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
+              <a href="#App" className="smoothscroll"><motion.h2 id="boh" layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
                 <motion.img layout src={"images/appetito.jpg"} />
 
                 {this.state.isOpen2 &&(
