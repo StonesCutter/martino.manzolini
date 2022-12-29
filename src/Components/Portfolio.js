@@ -188,7 +188,7 @@ const images2 = [
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-               <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen}>5AAR - Augmented Reality and Conversational Agent</motion.h2></a>
+               <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen}>5AAR - Augmented Reality and Conversational Agent</motion.h2></a>
                 <motion.img layout src={"images/5AAR.png"} />
 
                 {this.state.isOpen &&(
@@ -235,7 +235,7 @@ const images2 = [
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-              <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
+              <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
                 <motion.img layout src={"images/LeonARdo.jpg"} />
 
                 {this.state.isOpen1 &&(
@@ -252,8 +252,13 @@ const images2 = [
                   </p>
                  
                   <p><b className="underline">
-                  <a href="https://ambsofia.esteri.it/ambasciata_sofia/en/ambasciata/news/dall-ambasciata/la-mostra-su-leonardo-da-vinci.html" target="_blank" rel="noopener noreferrer">Learn more about LeonARdo</a>
-                  </b> </p>
+                  <a href="https://ambsofia.esteri.it/ambasciata_sofia/en/ambasciata/news/dall-ambasciata/la-mostra-su-leonardo-da-vinci.html" target="_blank" rel="noopener noreferrer">Learn more about LeonARdo   </a>
+                  </b>
+                  or
+                  <b className="underline">
+                  <a href="https://play.google.com/store/apps/details?id=com.StoneCutter.LeonARdo&hl=it&gl=US" target="_blank" rel="noopener noreferrer">   download it from Google Play</a>
+                  </b>
+                   </p>
 
                  <YouTube id="YO4aM6upOPg"/>
                 <br/>
@@ -285,7 +290,7 @@ const images2 = [
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-              <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
+              <a><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
                 <motion.img layout src={"images/appetito.jpg"} />
 
                 {this.state.isOpen2 &&(
