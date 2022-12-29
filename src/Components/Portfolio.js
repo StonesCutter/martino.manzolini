@@ -35,7 +35,7 @@ class Portfolio extends Component {
     this.setState(prevState => {
       return {
         isOpen1: prevState.isOpen1 === false ? true : false,
-        isOpen0: false,
+        isOpen: false,
         isOpen2: false, 
         isOpen3: false
         }
@@ -48,7 +48,7 @@ class Portfolio extends Component {
       return {
         isOpen2: prevState.isOpen2 === false ? true : false,
         isOpen1: false,
-        isOpen0: false, 
+        isOpen: false, 
         isOpen3: false
         }
      }  
@@ -61,7 +61,7 @@ class Portfolio extends Component {
         isOpen3: prevState.isOpen3 === false ? true : false,
         isOpen1: false,
         isOpen2: false, 
-        isOpen0: false
+        isOpen: false
         }
      }  
     )
@@ -99,6 +99,24 @@ class Portfolio extends Component {
   }
 ];
 
+const images1 = [
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo1.jpg?alt=media&token=7b89827e-24cc-476f-9bf2-2e6aab0dd77b',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo1.jpg?alt=media&token=7b89827e-24cc-476f-9bf2-2e6aab0dd77b',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo2.jpg?alt=media&token=aa34570c-26fb-4ec5-8a94-0d10eddaa7e6',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo2.jpg?alt=media&token=aa34570c-26fb-4ec5-8a94-0d10eddaa7e6',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo3.jpg?alt=media&token=ff74e9e4-133e-418d-9bb3-40102cd47c4f',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo3.jpg?alt=media&token=ff74e9e4-133e-418d-9bb3-40102cd47c4f',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo4.jpg?alt=media&token=a91e4ac9-b353-4dfc-ba45-04d0edb43957',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fleo4.jpg?alt=media&token=a91e4ac9-b353-4dfc-ba45-04d0edb43957',
+  }
+];
 
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
@@ -123,22 +141,22 @@ class Portfolio extends Component {
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}>
               
-                <motion.h2 layout="position">5AAR</motion.h2>
+               <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen}>5AAR - Augmented Reality and Conversational Agent</motion.h2></a>
                 <motion.img layout src={"images/5AAR.png"} />
-
-                <ul className="social">
-                  <a onClick={this.SetIsOpen} className="button btnMobile project-btn">Read more</a>
-                </ul>
 
                 {this.state.isOpen &&(
                   <div className="info" >
 
                   <p>The 5A project aims to provide an enhancement to the quality of life of
                   autistic persons, helping them to reach autonomy in several daily life scenarios, through
-                  a cross reality training based on Virtual Reality, <b>Augmented Reality</b>
+                  a cross reality training based on <b>Virtual Reality</b>, <b>Augmented Reality</b>
                    and <b>Conversational Agents</b>.
                   By considering the scenario of the subway of Milan, I developed, with another student, an android AR application, 
                   explained in detail in our master's degree thesis.</p>
+
+                  <p><b className="underline">
+                  <a href=" https://www.frontiere.polimi.it/5a-the-technology-that-helps-support-social-issues/?lang=en" target="_blank" rel="noopener noreferrer">Learn more about 5A</a>
+                  </b> </p>
                  
                  <YouTube id="ApLaFFPyqzc"/>
                 <br/>
@@ -159,10 +177,6 @@ class Portfolio extends Component {
                   </table>
                  </fieldset>
 
-                  <p><b className="underline">
-                  <a href=" https://www.frontiere.polimi.it/5a-the-technology-that-helps-support-social-issues/?lang=en" target="_blank" rel="noopener noreferrer">Learn more about 5A</a>
-                  </b> </p>
-
                   <ImageGallery items={images} size="4" />;
 
                   </div>
@@ -170,16 +184,50 @@ class Portfolio extends Component {
               </motion.div>
 
               <motion.div  layout className="card" 
-              style={{borderRadius: "1rem"}}
-              onClick={this.SetIsOpen1}>
+              style={{borderRadius: "1rem"}}>
               
-                <motion.h2 layout="position">Prova</motion.h2>
+              <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
+                <motion.img layout src={"images/LeonARdo.jpg"} />
+
                 {this.state.isOpen1 &&(
-                  <motion.div>
-                    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                    <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
-                  </motion.div>
+                  <div className="info" >
+
+                  <p>
+                  The idea of this application is to use <b> Augmented Reality technology </b> to increase the graphic 
+                  and interactive possibilities of the exhibition <b>"Leonardo the gentle genius"</b>conceived by <b>Ambassador Stefano Baldi</b>.
+                  Over the posters appears multimedia elements and digital descriptions that, overlapping the actual reality and viewable via the screen 
+                  of a portable device, increase the interactivity of the observer. 
+                  </p>
+                 
+                  <p><b className="underline">
+                  <a href="https://ambsofia.esteri.it/ambasciata_sofia/en/ambasciata/news/dall-ambasciata/la-mostra-su-leonardo-da-vinci.html" target="_blank" rel="noopener noreferrer">Learn more about LeonARdo</a>
+                  </b> </p>
+
+                 <YouTube id="YO4aM6upOPg"/>
+                <br/>
+                <fieldset>
+                  <table className="table-skills">
+                    <tr className="row-skills">
+                      <th> Programming languages:</th>
+                      <th className="column-skills">C#</th>
+                    </tr>
+                    <tr  className="row-skills">
+                      <th> Frameworks and Services:</th>
+                      <th className="column-skills">Vuforia Engine</th>
+                    </tr>
+                    <tr className="row-skills">
+                      <th> Software used: </th>
+                      <th className="column-skills">Unity, 3Ds Max, Gimp</th>
+                    </tr>
+                  </table>
+                 </fieldset>
+
+                  <ImageGallery items={images1} size="4" />;
+
+                  </div>
                    )}
+
+
               </motion.div>
 
               <motion.div  layout className="card" 

@@ -1101,6 +1101,15 @@ footer .social-links li:first-child { margin-left: 0; }
    background-color: #34495e !important;
 }
 
+/* Reactive titles */
+
+.bold-hover:hover{
+   font-weight: 20;
+   color:#337ab7;
+   cursor:pointer;
+}
+
+
 /* Immagini */
 
 .image-gallery-icon{
