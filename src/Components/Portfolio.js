@@ -118,6 +118,53 @@ const images1 = [
   }
 ];
 
+const images2 = [
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito10.jpg?alt=media&token=d7c5c1b4-7fb0-403a-b24e-00f419c81918',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito10.jpg?alt=media&token=d7c5c1b4-7fb0-403a-b24e-00f419c81918',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito1.jpg?alt=media&token=fea57bfa-f7de-4e70-ad1d-5619c5cf8b49',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito1.jpg?alt=media&token=fea57bfa-f7de-4e70-ad1d-5619c5cf8b49',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito11.jpg?alt=media&token=f90b169c-e296-4772-8a1d-cc110985dc81',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito11.jpg?alt=media&token=f90b169c-e296-4772-8a1d-cc110985dc81',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito2.jpg?alt=media&token=03d5bc11-71b6-4466-923f-24c59d08c437',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito2.jpg?alt=media&token=03d5bc11-71b6-4466-923f-24c59d08c437',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito3.jpg?alt=media&token=f386f01f-c1a3-48ee-8452-f0a6aa3ce4a1',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito3.jpg?alt=media&token=f386f01f-c1a3-48ee-8452-f0a6aa3ce4a1',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito4.jpg?alt=media&token=b7e4ab45-0e0d-4330-bcc6-1b6fc52d95b7',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito4.jpg?alt=media&token=b7e4ab45-0e0d-4330-bcc6-1b6fc52d95b7',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito5.jpg?alt=media&token=36827148-aa62-4141-8993-dd81b22c750c',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito5.jpg?alt=media&token=36827148-aa62-4141-8993-dd81b22c750c',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito6%20unpopiccola.jpg?alt=media&token=09433ddb-17c1-429a-a584-dec420dcd6b1',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito6%20unpopiccola.jpg?alt=media&token=09433ddb-17c1-429a-a584-dec420dcd6b1',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito7.jpg?alt=media&token=2882a08d-737a-4271-a6c0-f3f38b910d13',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito7.jpg?alt=media&token=2882a08d-737a-4271-a6c0-f3f38b910d13',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito8.jpg?alt=media&token=a03da9e2-3885-44de-af0e-c4d357f860c8',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito8.jpg?alt=media&token=a03da9e2-3885-44de-af0e-c4d357f860c8',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito9.jpg?alt=media&token=7dc35b55-3f73-460b-8321-ac9b0c7e6c2b',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fappetito9.jpg?alt=media&token=7dc35b55-3f73-460b-8321-ac9b0c7e6c2b',
+  }
+];
+
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
@@ -151,6 +198,8 @@ const images1 = [
                   autistic persons, helping them to reach autonomy in several daily life scenarios, through
                   a cross reality training based on <b>Virtual Reality</b>, <b>Augmented Reality</b>
                    and <b>Conversational Agents</b>.
+                   </p>
+                   <p>
                   By considering the scenario of the subway of Milan, I developed, with another student, an android AR application, 
                   explained in detail in our master's degree thesis.</p>
 
@@ -198,6 +247,9 @@ const images1 = [
                   Over the posters appears multimedia elements and digital descriptions that, overlapping the actual reality and viewable via the screen 
                   of a portable device, increase the interactivity of the observer. 
                   </p>
+                  <p>
+                  The application is available for android on <b>Google Play</b>. The written contents of the application are available for three languages: <b>Italian, English and Bulgarian</b>.  
+                  </p>
                  
                   <p><b className="underline">
                   <a href="https://ambsofia.esteri.it/ambasciata_sofia/en/ambasciata/news/dall-ambasciata/la-mostra-su-leonardo-da-vinci.html" target="_blank" rel="noopener noreferrer">Learn more about LeonARdo</a>
@@ -231,16 +283,53 @@ const images1 = [
               </motion.div>
 
               <motion.div  layout className="card" 
-              style={{borderRadius: "1rem"}}
-              onClick={this.SetIsOpen2}>
+              style={{borderRadius: "1rem"}}>
               
-                <motion.h2 layout="position">Prova</motion.h2>
+              <a><motion.h2 layout="position"  className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
+                <motion.img layout src={"images/appetito.jpg"} />
+
                 {this.state.isOpen2 &&(
-                  <motion.div>
-                    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                    <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
-                  </motion.div>
+                  <div className="info" >
+
+                  <p>
+                  <b>APPetito is an Android native application</b> for the offering or purchase of restaurant's meals depending on the rôle that the user will choose. 
+                  As a restaurateur will be possible to open a profile for a restaurant, present a menu and manage incoming reservations.
+                  As client, instead, will be possible to browse with filters for different restaurants subscribed to the app, 
+                  consult menues and complete reservations. A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
+                  </p>
+
+                  <p>
+                  A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
+                  The social objective of the app is also to promote real life moments to spend at restaurants, by inviting friends to subscribe, potentially increasing the incomes of the restaurants subscribed too.                  
+                  </p>
+
+                  <p><b className="underline">
+                  <a href="https://github.com/StonesCutter/APPetito" target="_blank" rel="noopener noreferrer">Check out APPetito on GitHub</a>
+                  </b> </p>
+
+                <br/>
+                <fieldset>
+                  <table className="table-skills">
+                    <tr className="row-skills">
+                      <th> Programming languages:</th>
+                      <th className="column-skills">JavaScript</th>
+                    </tr>
+                    <tr  className="row-skills">
+                      <th> Frameworks and Services:</th>
+                      <th className="column-skills">React Native, Firebase</th>
+                    </tr>
+                    <tr className="row-skills">
+                      <th> Software used: </th>
+                      <th className="column-skills">Visual Studio Code, Expo go</th>
+                    </tr>
+                  </table>
+                 </fieldset>
+
+                  <ImageGallery items={images2} size="4" />;
+
+                  </div>
                    )}
+
               </motion.div>
 
               <h1>Art projects</h1>
