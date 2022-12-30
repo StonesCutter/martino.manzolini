@@ -237,7 +237,7 @@ const images2 = [
               style={{borderRadius: "1rem"}}>
               
               <a href="#Leo" className="smoothscroll"><motion.h2 layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen1}>LeonARdo - Augmented Reality exhibition</motion.h2></a>
-                <motion.img layout src={"images/LeonARdo.jpg"} />
+                <motion.img layout src={"images/LeonARdo.jpg"} id="App"/>
 
                 {this.state.isOpen1 &&(
                   <div className="info" >
@@ -288,7 +288,7 @@ const images2 = [
 
               </motion.div>
 
-              <motion.div  layout className="card" id="App"
+              <motion.div  layout className="card"
               style={{borderRadius: "1rem"}}>
               
               <a href="#App" className="smoothscroll"><motion.h2 id="boh" layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen2}>APPetito - Mobile Application</motion.h2></a>
