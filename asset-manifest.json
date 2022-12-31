@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/martino.manzolini/static/css/main.31d6cfe0.css",
-    "main.js": "/martino.manzolini/static/js/main.4f08d441.js",
+    "main.js": "/martino.manzolini/static/js/main.e9eb8865.js",
     "static/js/787.8dd2b5b2.chunk.js": "/martino.manzolini/static/js/787.8dd2b5b2.chunk.js",
     "index.html": "/martino.manzolini/index.html",
-    "main.4f08d441.js.map": "/martino.manzolini/static/js/main.4f08d441.js.map",
+    "main.e9eb8865.js.map": "/martino.manzolini/static/js/main.e9eb8865.js.map",
     "787.8dd2b5b2.chunk.js.map": "/martino.manzolini/static/js/787.8dd2b5b2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.4f08d441.js"
+    "static/js/main.e9eb8865.js"
   ]
 }
