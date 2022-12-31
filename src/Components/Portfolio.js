@@ -165,6 +165,25 @@ const images2 = [
   }
 ];
 
+const images3 = [
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%204.png?alt=media&token=8dbfe6d4-0346-4f81-b6b4-079fbcd8e816',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%204.png?alt=media&token=8dbfe6d4-0346-4f81-b6b4-079fbcd8e816',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%203.png?alt=media&token=0b0801fa-19b9-4da1-829e-3fbe3e6c949a',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%203.png?alt=media&token=0b0801fa-19b9-4da1-829e-3fbe3e6c949a',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2011.png?alt=media&token=f14401a4-c06b-430f-8413-78812596340d',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2011.png?alt=media&token=f14401a4-c06b-430f-8413-78812596340d',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2017.png?alt=media&token=8fb7ee9c-ce84-4b45-a1c6-2ef7f99bdb35',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2017.png?alt=media&token=8fb7ee9c-ce84-4b45-a1c6-2ef7f99bdb35',
+  }
+];
+
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
@@ -338,19 +357,57 @@ const images2 = [
 
               </motion.div>
 
-              <h1>Art projects</h1>
+              <h1 id="Art">Art projects</h1>
 
               <motion.div  layout className="card" 
               style={{borderRadius: "1rem"}}
-              onClick={this.SetIsOpen3}>
+              >
               
-                <motion.h2 layout="position">Prova</motion.h2>
+              <a href="#Art" className="smoothscroll"><motion.h2 id="boh" layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen3}>Teodorico di Verona - stained glass like artworks</motion.h2></a>
+                <motion.img layout src={"images/appetito.jpg"} />
+
                 {this.state.isOpen3 &&(
-                  <motion.div>
-                    <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
-                    <p>bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</p>
-                  </motion.div>
+                  <div className="info" >
+
+                  <p>
+                  <b>APPetito is an Android native application</b> for the offering or purchase of restaurant's meals depending on the rôle that the user will choose. 
+                  As a restaurateur will be possible to open a profile for a restaurant, present a menu and manage incoming reservations.
+                  As client, instead, will be possible to browse with filters for different restaurants subscribed to the app, 
+                  consult menues and complete reservations. A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
+                  </p>
+
+                  <p>
+                  A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
+                  The social objective of the app is also to promote real life moments to spend at restaurants, by inviting friends to subscribe, potentially increasing the incomes of the restaurants subscribed too.                  
+                  </p>
+
+                  <p><b className="underline">
+                  <a href="https://github.com/StonesCutter/APPetito" target="_blank" rel="noopener noreferrer">Check out APPetito on GitHub</a>
+                  </b> </p>
+
+                <br/>
+                <fieldset>
+                  <table className="table-skills">
+                    <tr className="row-skills">
+                      <th> Programming languages:</th>
+                      <th className="column-skills">JavaScript</th>
+                    </tr>
+                    <tr  className="row-skills">
+                      <th> Frameworks and Services:</th>
+                      <th className="column-skills">React Native, Firebase</th>
+                    </tr>
+                    <tr className="row-skills">
+                      <th> Software used: </th>
+                      <th className="column-skills">Visual Studio Code, Expo go</th>
+                    </tr>
+                  </table>
+                 </fieldset>
+
+                  <ImageGallery items={images3} size="4" />;
+
+                  </div>
                    )}
+
               </motion.div>
 
               {/*
