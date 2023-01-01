@@ -181,6 +181,14 @@ const images3 = [
   {
     original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2017.png?alt=media&token=8fb7ee9c-ce84-4b45-a1c6-2ef7f99bdb35',
     thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Fscena%2017.png?alt=media&token=8fb7ee9c-ce84-4b45-a1c6-2ef7f99bdb35',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Ffoto1.jpg?alt=media&token=37527711-ac22-4d4e-99f3-c02624ae92b2',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Ffoto1.jpg?alt=media&token=37527711-ac22-4d4e-99f3-c02624ae92b2',
+  },
+  {
+    original: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Ffoto2.jpg?alt=media&token=1fbd2d20-d92a-4d6c-8ed9-5dffaa9dfe07',
+    thumbnail: 'https://firebasestorage.googleapis.com/v0/b/prova-7aa2f.appspot.com/o/Portfolio%2Ffoto2.jpg?alt=media&token=1fbd2d20-d92a-4d6c-8ed9-5dffaa9dfe07',
   }
 ];
 
@@ -364,7 +372,7 @@ const images3 = [
               >
               
               <a href="#Art" className="smoothscroll"><motion.h2 id="boh" layout="position" style={{textAlign: "center"}} className="bold-hover" onClick={this.SetIsOpen3}>Teodorico di Verona - stained glass like artworks</motion.h2></a>
-                <motion.img layout src={"images/appetito.jpg"} />
+                <motion.img layout src={"images/Teodorico.jpg"} />
 
                 {this.state.isOpen3 &&(
                   <div className="info" >
