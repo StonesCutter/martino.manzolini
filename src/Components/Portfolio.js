@@ -378,35 +378,23 @@ const images3 = [
                   <div className="info" >
 
                   <p>
-                  <b>APPetito is an Android native application</b> for the offering or purchase of restaurant's meals depending on the rôle that the user will choose. 
-                  As a restaurateur will be possible to open a profile for a restaurant, present a menu and manage incoming reservations.
-                  As client, instead, will be possible to browse with filters for different restaurants subscribed to the app, 
-                  consult menues and complete reservations. A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
-                  </p>
+                  <b>La saga di Teodorico di Verona</b> (The Thidrekssaga Af Bern) is an epic-chivalric saga of Germanic origin, written in the mid-13th century and subsequently that narrates the adventures of the hero Thidrek Af Bern, known in the German-speaking regions under the name of Dietrich von Bern, where Bern is the early medieval name of the city of Verona. </p>
 
                   <p>
-                  A serie of missions, depending on the category of customer chosen, will allow the earning of points based on the reservations completed, to spend in discounts. 
-                  The social objective of the app is also to promote real life moments to spend at restaurants, by inviting friends to subscribe, potentially increasing the incomes of the restaurants subscribed too.                  
+                  For the world premiere of the symphonic poem composed by Matteo Manzolini, I was asked to realize some artworks to be projected during the conncert. I created
+                 <b> 18 digital artworks</b> representing the key moments of the saga, in a <b>stained glass</b>style inspired by the medieval stained glass windows of european cathedrals. 
+                  By playing with shapes and strong contrasts of colours, I crated images that could express fully the subjects and atmosphere of this legendary character. 
                   </p>
 
                   <p><b className="underline">
-                  <a href="https://github.com/StonesCutter/APPetito" target="_blank" rel="noopener noreferrer">Check out APPetito on GitHub</a>
+                  <a href="https://www.filarmonicamosaico.ch/la-saga-di-teodorico-di-verona/" target="_blank" rel="noopener noreferrer">Concert manifest (Italian)</a>
                   </b> </p>
 
-                <br/>
                 <fieldset>
                   <table className="table-skills">
                     <tr className="row-skills">
-                      <th> Programming languages:</th>
-                      <th className="column-skills">JavaScript</th>
-                    </tr>
-                    <tr  className="row-skills">
-                      <th> Frameworks and Services:</th>
-                      <th className="column-skills">React Native, Firebase</th>
-                    </tr>
-                    <tr className="row-skills">
                       <th> Software used: </th>
-                      <th className="column-skills">Visual Studio Code, Expo go</th>
+                      <th className="column-skills">Gimp</th>
                     </tr>
                   </table>
                  </fieldset>
